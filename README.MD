@@ -9,7 +9,7 @@ Fuente: [https://es.wikipedia.org/wiki/SOLID](https://es.wikipedia.org/wiki/SOLI
 - Una clase debería tener sólo 1 razón para cambiar
 - Cómo:
   - Clases pequeñas con objetivos acotados
-- Si es que tienes más de métodos públicos puede ser señal de más de una responsabilidad
+- Si es que tienes más de un método público puede ser señal de más de una responsabilidad
 - Nombres de servicios muy abstractos EmailService vs EmailSender (solo enviará emails)
 - Finalidad: - Alta cohesión y robustez - Permitir composición de clases (inyección) - Reducir duplicidad
 
